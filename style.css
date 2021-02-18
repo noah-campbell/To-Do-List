@@ -1,0 +1,42 @@
+* {
+	font-family: 'Rokkitt', serif;
+	font-size: 1em;
+}
+
+form {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+
+input[type=text] {
+	padding: 5px;
+	border-radius: 5px 0px 0px 5px;
+	font-weight: 700;
+}
+
+input[type=button] {
+	padding: 5px;
+	border-radius: 0px 5px 5px 0px;
+	background-color: #66CCFF;
+}
+
+input[type=button]:disabled {
+	padding: 5px;
+	border-radius: 0px 5px 5px 0px;
+	background-color: #CCCCCC;
+}
+
+ul {
+	display: flex;
+	justify-content: center;
+}
+
+#list {
+	display: flex;
+	justify-content: center;
+	background-color: #66CCFF;
+	width: 50%;
+	margin: 10px;
+	border-radius: 5px;
+}
